@@ -1,0 +1,25 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "et's learn Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc",
+    "init":"npm init && tsc --init",
+    "start":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supperdsj/Typescript-Tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supperdsj/Typescript-Tutorial/issues"
+  },
+  "homepage": "https://github.com/supperdsj/Typescript-Tutorial#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
