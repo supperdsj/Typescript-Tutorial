@@ -1,4 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-*/*.js
-*/*.js.map
+*/**/*.js
+*/**/*.js.map
 node_modules
