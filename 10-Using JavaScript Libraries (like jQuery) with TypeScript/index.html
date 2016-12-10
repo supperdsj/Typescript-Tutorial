@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../node_modules/systemjs/dist/system.js"></script>
+</head>
+<body>
+<div id="app">
+    there is my app
+</div>
+<script>
+    SystemJS.config({
+        map: {
+            'jQuery':'../node_modules/jquery/dist/jquery.min.js'
+        },
+        baseURL: './',
+        defaultJSExtensions: true
+    });
+    SystemJS.import('10.1-using%203rd%20package.js');
+</script>
+</body>
+</html>
