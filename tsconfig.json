@@ -5,6 +5,7 @@
         "noImplicitAny": false,
         "sourceMap": true,
         "strictNullChecks":true,
-        "noEmitOnError": true
+        "noEmitOnError": false,
+        "experimentalDecorators": true
     }
 }
