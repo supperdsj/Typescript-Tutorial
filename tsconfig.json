@@ -7,5 +7,6 @@
         "strictNullChecks":true,
         "noEmitOnError": false,
         "experimentalDecorators": true
-    }
+    },
+    "exclude": ["node_modules"]
 }
