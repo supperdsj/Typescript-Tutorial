@@ -1,2 +1,2 @@
 # Typescript-Tutorial
-et's learn Typescript
+let's learn Typescript
